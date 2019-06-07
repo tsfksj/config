@@ -1,8 +1,8 @@
-xterm*ScrollBar: true
+!xterm*ScrollBar: true
 xterm*faceName: DejaVu Sans Mono
 xterm*faceNameDoublesize: WenQuanYi Micro Hei
 xterm*faceSize: 11
 xterm*allowBoldFonts:false
-xterm*foreground: grey100]
-xterm*background: rgb:30/10/10
-!xterm*background: black
+xterm*foreground: gray
+!xterm*background: rgb:30/10/10
+xterm*background: black
