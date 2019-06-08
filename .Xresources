@@ -6,3 +6,7 @@ xterm*allowBoldFonts:false
 xterm*foreground: gray
 !xterm*background: rgb:30/10/10
 xterm*background: black
+xterm*inputMethod: fcitx
+Ctrl <KeyPress> V: insert-selection(CLIPBOARD,PRIMARY,CUT_BUFFER0) \n\
+<BtnUp>: select-end(CLIPBOARD,PRIMARY,CUT_BUFFER0) \n\
+Ctrl <KeyPress> P: print() \n
